@@ -23,6 +23,8 @@
 <br>[Linotype: The Film — trailer](https://www.youtube.com/watch?v=avDuKuBNuCk)
 <br>[Linotype matrix identification publications](http://www.circuitousroot.com/artifice/letters/press/compline/typography/matrix/mergenthaler/)
 
+* [Schedule](https://github.com/EricLScace/allthemats-ember/wiki/schedule)
+
 * Wireframes
 
 * [User stories](https://github.com/EricLScace/allthemats-ember/wiki/user-stories)
