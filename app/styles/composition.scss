@@ -16,7 +16,7 @@ body {
 
 .app-title {
   font-size: $font-size-title;
-  text-align: center;
+  text-align: right;
 }
 
 .box-bordered {
@@ -29,6 +29,10 @@ body {
 .box-unbordered {
   height: $height-row-0;
   padding: $padding;
+}
+
+.box-image {
+  height: $height-row-0;
 }
 
 .height-row-0 {
