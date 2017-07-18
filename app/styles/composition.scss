@@ -19,6 +19,18 @@ body {
   text-align: center;
 }
 
+.box-bordered {
+  border: $border-test;
+  border-radius: $border-radius;
+  height: $height-row-0;
+  padding: $padding;
+}
+
+.box-unbordered {
+  height: $height-row-0;
+  padding: $padding;
+}
+
 .height-row-0 {
   height: $height-row-0;
 }
@@ -28,20 +40,8 @@ body {
   border-radius: $border-radius;
   box-shadow: $box-shadow;
   height: $height-row-0;
+  // margin-right: $box-shadow-thickness;
   padding: $padding;
-  // padding-left: $padding;
-  // padding-right: $padding;
-  // padding-top: $padding;
-}
-
-.test-box {
-  border: $border-test;
-  border-radius: $border-radius;
-  height: $height-row-0;
-  padding: $padding;
-  // padding-left: $padding;
-  // padding-right: $padding;
-  // padding-top: $padding;
 }
 
 .text-click {
