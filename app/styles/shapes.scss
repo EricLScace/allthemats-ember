@@ -1,0 +1,14 @@
+@import './colors';
+@import './typography';
+
+// heights:
+$min-height-row-0: 4 * $font-size;
+
+// radii:
+$border-radius: 8px;
+
+// shadows:
+$box-shadow: inset 2px 2px 4px $gray;
+
+//
+$border-test: 1px dashed;
