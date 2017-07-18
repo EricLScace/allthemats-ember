@@ -1,3 +1,4 @@
+@import './colors';
 $font-family:     botanika-web, sans-serif;
 $font-size:       18px;   // foundation font size
 $line-height:     1.2;
@@ -5,3 +6,5 @@ $line-height:     1.2;
 $font-size-title: (1 + $line-height) * $font-size;
 $font-style:      normal;
 $font-weight:     400;
+
+$text-click-color: $blue;
