@@ -1,10 +1,30 @@
-{{!-- Top of display --}}
+{{!-- Place everything in one row --}}
+<div class="container-fluid">
+  {{!-- Top of display --}}
 
-{{!-- Top-left corner: choose type of search --}}
+  {{!-- Top-left corner: choose type of search --}}
+  {{!-- Fixed-width container --}}
+  <div class="container col-md-2">
+    Search selector goes here
+  </div>
 
-{{!-- Center: app icon & title --}}
-<div class="app-title col-md-offset-2 col-md-6">
-  <h1> All the Linotype Matrices </h1>
+  {{!-- Fixed-width container: matrix image--}}
+  <div class="container col-md-2">
+    Matrix image goes here
+  </div>
+
+  {{!-- Fixed-width container: app title --}}
+  <div class="container col-md-4">
+    All the Linotype Matrices
+  </div>
+
+  {{!-- Fixed-width container: logged-in user description --}}
+  <div class="container col-md-2">
+    Logged in user name & organization
+  </div>
+
+  {{!-- Top-right corner: authentication actions --}}
+  <div class="container col-md-2">
+    Authentication actions
+  </div>
 </div>
-
-{{!-- Top-right corner: authentication --}}
