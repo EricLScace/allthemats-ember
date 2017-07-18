@@ -50,7 +50,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/EricLScace/allthemats-ember';
+    ENV.rootURL = 'allthemats-ember';
     ENV.locationType = 'hash';
     ENV.apiHost = 'https://allthemats.herokuapp.com';
   }
