@@ -1,0 +1,66 @@
+@import './colors';
+@import './shapes';
+@import './typography';
+
+// Classes are for styling.
+// IDs are for UX behavior.
+
+body {
+  background-color: $gray;
+  font-size: $font-size;
+}
+
+// .announcement {
+//   color: $red;
+//   margin-top: $font-size;
+// }
+//
+// .app-title {
+//   background-color: $gray;
+//   font-size: $font-size-title;
+//   text-align: center;
+// }
+//
+// .authn {
+//   display: inline;
+//   min-height: 3 * $font-size;
+// }
+//
+// .icon {
+//   margin-left: $font-size;
+//   margin-right: $font-size;
+// }
+//
+// .code-prefix {
+//   text-align: right;
+// }
+//
+// .container-fluid {
+//   display: inline;
+//   max-width: 786px;
+//   min-width: 640px;
+// }
+//
+// #change-settings-request {
+//   cursor: pointer;
+// }
+//
+// .logged-in-user {
+//   text-align: right;
+// }
+//
+// .matrix {
+//   margin-top: $font-size;
+// }
+//
+// .number {
+//   text-align: right;
+// }
+//
+// .response {
+//   margin-top: 3 * $font-size;
+// }
+//
+// .schrödinger {
+//   text-align: center;
+// }
