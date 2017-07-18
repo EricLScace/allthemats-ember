@@ -3,6 +3,9 @@
 
 $border-radius: 8px;
 $border-test: 1px dashed;
-$box-shadow: ($font-size / 6) ($font-size / 6) ($font-size / 3) $black;
-$min-height-row-0: 3 * $font-size;
+
+// box shadows
+$box-shadow-thickness: $font-size / 6;
+$box-shadow: $box-shadow-thickness $box-shadow-thickness (2 * $box-shadow-thickness) $black;
+$height-row-0: 3 * $font-size;
 $padding: $font-size / 3;
