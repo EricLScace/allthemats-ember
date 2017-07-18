@@ -7,18 +7,11 @@
 
 body {
   background-color: $gray;
-  box-sizing: border-box;
   font-family: $font-family;
   font-size: $font-size;
   font-style: $font-style;
   font-weight: $font-weight;
   line-height: $line-height;
-  // Must override the .container-fluid values for left & right padding
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  padding-top: 10;
-
 }
 
 .app-title {
@@ -35,11 +28,16 @@ body {
   border-radius: $border-radius;
   box-shadow: $box-shadow;
   min-height: $min-height-row-0;
+  padding: $padding;
 }
 
 .test-box {
   border: $border-test;
   border-radius: $border-radius;
+  min-height: $min-height-row-0;
+  padding-left: $padding;
+  padding-right: $padding;
+  padding-top: $padding;
 }
 
 // .announcement {

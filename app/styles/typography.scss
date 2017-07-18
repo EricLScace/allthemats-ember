@@ -1,6 +1,7 @@
 $font-family:     botanika-web, sans-serif;
 $font-size:       18px;   // foundation font size
-$font-size-title: 2 * $font-size;
+$line-height:     1.2;
+
+$font-size-title: (1 + $line-height) * $font-size;
 $font-style:      normal;
 $font-weight:     400;
-$line-height:     1.2;
