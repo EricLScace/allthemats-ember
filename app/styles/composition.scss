@@ -19,13 +19,9 @@ body {
   text-align: right;
 }
 
-.box-bordered {
-  border: $border-test;
-  border-radius: $border-radius;
-  padding: $padding;
-}
-
-.box-unbordered {
+.box {
+  // border: $border-test;
+  // border-radius: $border-radius;
   padding: $padding;
 }
 
