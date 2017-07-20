@@ -2,7 +2,7 @@ import Ember from 'ember'
 import RSVP from 'rsvp'
 
 export default Ember.Route.extend({
-  // auth: Ember.inject.service(),
+  auth: Ember.inject.service(),
   // flashMessages: Ember.inject.service(),
   //
   // model () {
