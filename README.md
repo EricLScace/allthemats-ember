@@ -42,11 +42,13 @@
 - [ ] User stories expanded: user can search not only for a specific Linotype matrix code, but also for all matrices that meet search criteria; e.g., Helvetica bold in 8 pt to 10 pt sizes.
 - [ ] ERD changed to optimize size of database, and to accommodate more edge cases in the description and use of Linotype matrices.git
 
-## Technologies used on client
+## Technologies used on client; dependencies
 * Bootstrap
 * Ember
-* ember-cli-flash
-* ember-local-storage
+* ember-cli-flash — `ember install ember-cli-flash`
+* ember-local-storage — `ember install ember-local-storage`
+
+For assurance, run `npm install` afterward.
 
 ## Contributors
 Eric Scace wrote all the documentation and code.
