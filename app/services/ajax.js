@@ -1,11 +1,11 @@
-import ActiveModelAdapter from 'active-model-adapter'
+import Ember from 'ember'
+import AjaxService from 'ember-ajax/services/ajax'
 import ENV from 'allthemats/config/environment'
 
-export default ActiveModelAdapter.extend({
+export default AjaxService.extend({
   host: ENV.apiHost,
 
   auth: Ember.inject.service(),
-
   headers: Ember.computed('auth.credentials.token', {
     get () {
       let headers = {}

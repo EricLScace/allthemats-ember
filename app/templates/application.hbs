@@ -1,2 +1,8 @@
 {{row-header}}
 {{table-matrices}}
+{{#each flashMessages.queue as |flash|}}
+  <div class="box container col-sm-offset-4 col-sm-4">
+    {{flash-message flash=flash}}
+  </div>
+{{/each}}
+{{outlet}}
