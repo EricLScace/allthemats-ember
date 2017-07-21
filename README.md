@@ -1,5 +1,7 @@
 # All the (Linotype) Matrices v0.2
 
+![](https://user-images.githubusercontent.com/6785602/28450815-b6063b7c-6db7-11e7-9331-f8052c6bf9b6.png)
+
 ## Wiki index
 (alphabetical order: links take you to the Wiki)
 > Checklists:
