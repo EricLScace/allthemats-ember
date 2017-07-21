@@ -50,6 +50,65 @@
 
 For assurance, run `npm install` afterward.
 
+## Architecture
+```
+|--application
+|    |--row-header
+|    |    |--search-selector
+|    |    |    |--radio-code
+|    |    |    '--radio-attributes
+|    |    |--user-info
+|    |    |    |--name
+|    |    |    '--organization
+|    |    |--register-settings
+|    |    '--sign-in-out
+|    |--search-attributes
+|    |    |--main-position
+|    |    |    |--size
+|    |    |    |--font
+|    |    |    |--face
+|    |    |    |--weight
+|    |    |    |--width
+|    |    |    |--figures
+|    |    |    |--ck-outline
+|    |    |    |--ck-relief
+|    |    |    |--ck-strikethrough
+|    |    |    '--ck-underline
+|    |    |--aux-position
+|    |    |    |--size
+|    |    |    |--font
+|    |    |    |--face
+|    |    |    |--weight
+|    |    |    |--width
+|    |    |    |--figures
+|    |    |    |--ck-outline
+|    |    |    |--ck-relief
+|    |    |    |--ck-strikethrough
+|    |    |    '--ck-underline
+|    |    |--miscellaneous
+|    |    |    |--ck-emboss
+|    |    |    |--ck-ttysetting
+|    |    |    |--ck-vertical
+|    |    |    '--ck-self-spacing
+|    '--table-matrices (Bootstrap table)
+|--sign-in
+|    '--sign-in-form
+|         |--email-input
+|         '--password-input
+|--register
+|    '--sign-up-form
+|         |--email-input
+|         |--password-input (twice)
+|         |--name-input
+|         '--organization-input
+'--settings
+     '--password-change-form
+          |--old-password-input
+          |--new-password-input (twice)
+          |--name-input
+          '--organization-input
+```
+
 ## Contributors
 Eric Scace wrote all the documentation and code.
 
