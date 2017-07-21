@@ -32,6 +32,12 @@ body {
   padding-left: $padding;
 }
 
+// Override Ember's override to keep input fields inside their containing div
+.form-horizontal {
+  margin-bottom: 0;
+  margin-top: $font-size / 3;
+}
+
 .height-row-0 {
   height: $height-row-0;
 }
@@ -61,6 +67,11 @@ body {
   font-weight: $text-heading-weight;
 }
 
+// Overrides Ember's default input field width
+.tweak-input {
+  margin-left: 15px;
+  width: 86%;
+}
 // .announcement {
 //   color: $red;
 //   margin-top: $font-size;
